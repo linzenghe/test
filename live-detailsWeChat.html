@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>木星</title>
+    <link rel="stylesheet" href="css/frozen.css"/>
+    <link rel="stylesheet" href="css/mu.css"/>
+</head>
+<body ontouchstart class="inwechat">
+    <!-- body的class有下载栏用inwechat，没有下载栏用outwechat -->
+    <!-- 有下载栏 -->
+    <header class="ui-header ui-header-positive ui-border-b mu-padding">
+        <div class="mu-logo"><img src="img/mu-logo.png"></div><span style="font-size: 18px;padding-left: 14px;">木星直播</span>
+        <button class="mu-btn1 downapp" style="right: 18px;">下载APP</button><button class="mu-btn1" style="right: 104px;">打开APP</button>
+    </header>
+    <!-- 没有下载栏 -->
+	<header class="ui-header ui-header-positive ui-border-b mu-padding-w">
+        <h1>品牌详情</h1>
+        <i class="mu-return" onclick="history.back()"></i>
+        <i class="mu-share"></i>
+    </header>
+    <section class="mu-container" style="background-color: #fff;">
+        <div class="mu-live-cover mu-p">
+            <div class="mu-cover-img"><img src="img/ex2.jpg">
+                <div class="nobegin">未开始</div>
+            </div>
+        </div>
+        <div class="mu-cardblcok">
+            <div class="mu-headimg"><img src="img/uniqlo.jpg"></div>
+            <h1>品牌简称</h1>
+            <button class="mu-btn follow">已关注</button>
+                <!-- 未关注nofollow 关注follow-->
+        </div>
+        <div class="mu-profile">
+            <div class="mu-time">22日<br>5月</div>
+            <div class="mu-cont">香奈儿上海时装秀直击现场，嘉宾数量众多，多款产品限时优惠同步进行中！</div>
+        </div>
+        <div class="mu-host">
+            <span style="font-size: 12px;color: #9b9b9b;">主持人</span>
+            <div class="mu-hostavt"><img src="img/avt.jpg"></div>
+            <span style="font-size: 14px;color: #333;margin-left: 12px;">Woobee</span>
+            <div class="mu-position">上海</div>
+        </div>
+        <div class="mu-introcard">
+            <h1 style="padding: 16px 0 16px 0;font-size: 14px;font-weight: bold;color: #333;">直播内容</h1>
+            <div class="content" data-content="1921年Max Braun创始德国博朗公司，目前德国博朗的产品分为六大类：电动剃须刀，女用剃毛器，美发产品，厨房小家电，蒸汽电熨斗，一秒体温计。德国博朗所追寻的目标一向是明确，简单与平衡的线条。">
+                <p class="ellipsis">1921年Max Braun创始德国博朗公司，目前德国博朗的产品分为六大类：电动剃须刀，女用剃毛器，美发产品，厨房小家电，蒸汽电熨斗，一秒体温计。德国博朗所追寻的目标一向是明确，简单与平衡的线条。</p>
+            </div>
+            <div class="dropdown" style="display: none;"></div>
+        </div>
+        <div class="mu-goodslist">
+            <h1 style="padding: 16px 0 16px 16px;font-size: 14px;font-weight: bold;color: #333;">产品图集</h1>
+            <div class="mu-listbox">
+                <ul>
+                    <li>
+                        <a class="mu-item" href="#">
+                            <div class="imgbox"><img src="img/ex3.jpg"></div>
+                            <div class="price"><span style="font-size: 12px;">￥</span><span style="font-size: 14px;">1523</span></div>
+                            <h3>优衣库新款男士T恤（蓝条纹）</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="mu-item" href="#">
+                            <div class="imgbox"><img src="img/ex3.jpg"></div>
+                            <div class="price"><span style="font-size: 12px;">￥</span><span style="font-size: 14px;">23</span></div>
+                            <h3>优衣库新款男士T恤（蓝条纹）</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="mu-item" href="#">
+                            <div class="imgbox"><img src="img/ex3.jpg"></div>
+                            <div class="price"><span style="font-size: 12px;">￥</span><span style="font-size: 14px;">1523</span></div>
+                            <h3>优衣库新款男士T恤（蓝条纹）</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="mu-item" href="#">
+                            <div class="imgbox"><img src="img/ex3.jpg"></div>
+                            <div class="price"><span style="font-size: 12px;">￥</span><span style="font-size: 14px;">23</span></div>
+                            <h3>优衣库新款男士T恤（蓝条纹）</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="mu-masking3" style="display: none;">
+        <div class="bg"></div>
+        <div class="wechat-tip"><img src="img/wechat-tip.png"></div>
+    </section>
+
+	
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/frozen.js"></script>
+    <script type="text/javascript" src="js/mu.js"></script>
+</body>
+</html>
