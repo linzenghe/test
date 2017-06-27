@@ -115,7 +115,8 @@
         $(".mu-share").on("click",function () {
             var ua = window.navigator.userAgent.toLowerCase();
             if (ua.match(/MicroMessenger/i) == 'micromessenger') { //是微信
-                location.href="live-detailsWeChat.html";
+                alert(1);
+                window.location.href="live-detailsWeChat.html";
             }else if(ua.indexOf('Android') > -1 || ua.indexOf('Linux') > -1){  //是安卓
                 location.href='live-detailsAndroid.html';
             }else if(!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
