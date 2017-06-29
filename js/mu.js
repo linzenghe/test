@@ -51,8 +51,9 @@ $(function(){
                 alert("ios_wechat");
             }else{
                 alert("ios");
-            }  
+            }
         }
+        alert(2);
         /* else if (u.indexOf('Windows Phone') > -1) {
             //winphone手机
         }*/
