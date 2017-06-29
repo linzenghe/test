@@ -46,11 +46,16 @@ $(function(){
                 alert("android");
             }
         } else if (u.indexOf('iPhone') > -1) {
-
             //苹果手机
-        } else if (u.indexOf('Windows Phone') > -1) {
-            //winphone手机
+            if(isWeiXin()==true){
+                alert("ios_wechat");
+            }else{
+                alert("ios");
+            }  
         }
+        /* else if (u.indexOf('Windows Phone') > -1) {
+            //winphone手机
+        }*/
 
     });
 
