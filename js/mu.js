@@ -33,31 +33,31 @@ $(function(){
     });
 
 
-    var u = navigator.userAgent;
-
-
+    
     // 整合下载APP功能
     $(".downapp").on("click",function(){
+        var u = navigator.userAgent;
         if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {
             //安卓手机
             if(isWeiXin()==true){
-                alert("android_wechat");
+                // alert("android_wechat");
+                $("#mu-wechat").show();
             }else{
-                alert("android");
+                // alert("android");
+                $("#mu-android").show();
             }
         } else if (u.indexOf('iPhone') > -1) {
             //苹果手机
             if(isWeiXin()==true){
-                alert("ios_wechat");
+                // alert("ios_wechat");
+                $("#mu-wechat").show();
             }else{
-                alert("ios");
+                // alert("ios");
+                $("#mu-ios").show();
             }
+        }else{
+            alert("您的浏览器不支持打开此页面，请更换浏览器！");
         }
-        alert(2);
-        /* else if (u.indexOf('Windows Phone') > -1) {
-            //winphone手机
-        }*/
-
     });
 
 });
