@@ -46,8 +46,8 @@ $(function(){
                 // alert("android");
                 $("#mu-android").show();
             }
-        } else if (u.indexOf('iPhone') > -1) {
-            //苹果手机
+        } else if (u.indexOf('iPhone') > -1 || u.indexOf('iPad') > -1) {
+            //苹果设备
             if(isWeiXin()==true){
                 // alert("ios_wechat");
                 $("#mu-wechat").show();
