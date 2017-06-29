@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>木星</title>
+    <link rel="stylesheet" href="css/frozen.css"/>
+    <link rel="stylesheet" href="css/mu.css"/>
+	<link href="http://nos.netease.com/vod163/nep.min.css" rel="stylesheet">
+</head>
+<body ontouchstart class="outwechat2">
+    <!-- body的class有下载栏用inwechat，没有下载栏用outwechat2 -->
+    <!-- 有下载栏 -->
+    <!-- <header class="ui-header ui-header-positive ui-border-b mu-padding">
+        <div class="mu-logo"><img src="img/mu-logo.png"></div><span style="font-size: 18px;padding-left: 14px;">木星直播</span>
+        <button class="mu-btn1" style="right: 18px;">下载APP</button><button class="mu-btn1" style="right: 104px;">打开APP</button>
+    </header> -->
+    <!-- 没有下载栏 -->
+	<!-- <header class="ui-header ui-header-positive ui-border-b mu-padding-w">
+        <i class="mu-return" onclick="history.back()"></i>
+        <div class="mu-xblock">
+            <i class="mu-num">1k+</i>
+            <i class="mu-remind"></i>
+            <i class="mu-share"></i>
+            <i class="mu-more"></i>
+        </div>
+        
+    </header> -->
+    <section class="mu-container" style="background:url(img/ex5.jpg) scroll no-repeat 0 0;background-size: cover;height: 100%;position: relative;">
+        <div class="mu-livefull-info">
+            <div class="headimg"><img src="img/uniqlo.jpg"><span class="level"></span></div>
+            <div class="info">
+                <h5>这里是名字这里是名字</h5>
+                <div class="fans">
+                    <span class="star">星光</span>
+                    <span style="margin-left: 4px;font-size: 12px;">124512</span>
+                </div>
+            </div>
+        </div>
+		
+		
+			<!-- <video id="my-video" class="video-js vjs-big-play-centered" x-webkit-airplay="allow" webkit-playsinline controls poster="test.png" preload="auto" width="640" height="360" >
+				<source src="test.mp4" type="video/mp4">
+			</video> -->
+		
+    </section>
+
+    <section class="mu-masking" style="display: none;">
+        <div class="bg"></div>
+        <div class="menulist">
+            <ul>
+                <li>举报</li>
+                <li>管理直播间</li>
+                <li style="margin-top: 6px;" class="cancel">取消</li>
+            </ul>
+        </div>
+    </section>
+
+
+	<script type="text/javascript" src="http://nos.netease.com/vod163/nep.min.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/frozen.js"></script>
+    <script type="text/javascript" src="js/mu.js"></script>
+	
+	<script>
+		var myPlayer = neplayer("my-video", {}, function(){
+			myPlayer.play();
+		});
+	</script>
+</body>
+</html>

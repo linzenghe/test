@@ -1,3 +1,4 @@
+html,body{height: 100%;}
 .outwechat .mu-padding-w{height: 44px;line-height: 44px;box-shadow: 0 0 6px rgba(0,0,0,.2);background-color: #fff;}
 .outwechat .mu-padding-w h1{text-align: center;color: #333;font-weight: bold;}
 .outwechat .mu-padding-w .mu-return{display: block;height: 44px;width: 44px;position: absolute;top: 0;left: 0;background:url(../img/icon-left.png) scroll no-repeat 18px center;background-size: 18px auto;}
@@ -104,3 +105,11 @@
 .mu-masking3 .codebox .codeimg img{width:190px;height: 190px;}
 .mu-masking3 .wechat-tip{position: absolute;top: 0;right: 16px;}
 .mu-masking3 .wechat-tip img{max-width: 300px;}
+
+.mu-livefull-info{position:absolute;top: 12px;left: 12px;background: rgba(0,0,0,.2);border-radius: 20px;padding:6px 16px 2px 0;z-index: 999;}
+.mu-livefull-info .headimg{width: 36px;height: 36px;position: absolute;left: 0;top: 0;}
+.mu-livefull-info .headimg img{width: 100%;height: 100%;border-radius: 50%;}
+.mu-livefull-info .headimg .level{display: block;width: 12px;height: 12px;position: absolute;right: 0;bottom: 0;background: url(../img/level.png) scroll no-repeat center center;background-size: 12px 12px;}
+.mu-livefull-info .info{padding-left: 44px;font-size: 10px;color: #fff;line-height: 14px;}
+.mu-livefull-info .info h5{display: block;font-size: 10px;width: 100px;height: 14px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap; }
+.mu-livefull-info .info .star{display: inline-block;line-height: 12px;background:url(../img/star.png) scroll no-repeat 4px 2px #ff5050;background-size:8px 8px;border-radius: 8px;padding: 0 4px 0 14px;}

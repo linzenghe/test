@@ -111,27 +111,5 @@
 	<script type="text/javascript" src="js/zepto.min.js"></script>
 	<script type="text/javascript" src="js/frozen.js"></script>
     <script type="text/javascript" src="js/mu.js"></script>
-    <script>
-        $(".mu-share").on("click",function () {
-            var ua = window.navigator.userAgent.toLowerCase();
-            if (ua.match(/MicroMessenger/i) == 'micromessenger') { //是微信
-                window.location.href="live-detailsWeChat.html";
-            }else if(ua.indexOf('Android') > -1 || ua.indexOf('Linux') > -1){  //是安卓
-                location.href='live-detailsAndroid.html';
-            }else if(!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
-                location.href='live-detailsIos.html';
-            }
-        })
-        /*function share() {
-            var ua = window.navigator.userAgent.toLowerCase();
-            if (ua.match(/MicroMessenger/i) == 'micromessenger') { //是微信
-                location.href="live-detailsWeChat.html";
-            }else if(ua.indexOf('Android') > -1 || ua.indexOf('Linux') > -1){  //是安卓
-                location.href='live-detailsAndroid.html';
-            }else if(!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
-                location.href='live-detailsIos.html';
-            }
-        }*/
-    </script>
 </body>
 </html>
